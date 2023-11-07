@@ -3,7 +3,20 @@ import './Body.css'
 function Body () {
     return (
         <div className='Body'>
-            <p>corps de page</p>
+            <article>
+                <h2>article1</h2>
+                <p>text1</p>
+            </article>
+
+            <article>
+                <h2>article2</h2>
+                <p>text2</p>
+            </article>
+
+            <article>
+                <h2>article3</h2>
+                <p>text3</p>
+            </article>
         </div>
     )
 }
